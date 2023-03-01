@@ -98,7 +98,7 @@ li {
 .buy-button {
     display: block;
     background-color:#3F6660;
-    max-width: 80%;
+    
     margin: 0 auto;
     color:#FEFFFE;
     text-align: center;
@@ -160,6 +160,7 @@ li {
         row-gap: 1rem;
         margin: 0.6rem auto;
     }
+
 
     
 
