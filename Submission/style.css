@@ -25,10 +25,6 @@ img {
     margin: 0 auto;
 }
 
-.header {
-    text-align: center;
-}
-
 ul {
     padding-left: 0;
 }
@@ -62,6 +58,7 @@ li {
     max-width: 10rem;
     margin: 0 auto;
     
+    
 }
 
 .primary-nav-item {
@@ -94,9 +91,36 @@ li {
 }
 
 @media only screen and (min-width:480px) {
+
+    .logo {
+        margin-bottom: 0;
+    }
+    
     .product-item{
         background-color: black;
     }
+
+    .primary-nav-list {
+        display: grid;
+        grid-template-columns: 10rem 10rem;
+        margin: 0 0;
+        
+        
+        
+    }
+
+    .primary-nav-item {
+        margin-bottom: 0;
+        
+        
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: 50% 20rem;
+        
+        
+    } 
 
 }
 
