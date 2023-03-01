@@ -98,7 +98,6 @@ li {
 .buy-button {
     display: block;
     background-color:#3F6660;
-    
     margin: 0 auto;
     color:#FEFFFE;
     text-align: center;
@@ -159,6 +158,19 @@ li {
         column-gap: 1rem;
         row-gap: 1rem;
         margin: 0.6rem auto;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: 40% auto;
+        column-gap: 1rem;
+    }
+    .buy-button {
+        margin-right: 50%;
+    }
+
+    .plant-det {
+        margin-top: 0;
     }
 
 
