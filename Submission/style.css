@@ -92,3 +92,16 @@ li {
 .products {
     margin-top: 1rem;
 }
+
+@media only screen and (min-width:480px) {
+    .product-item{
+        background-color: black;
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+    .product-item{
+        background-color: red;
+    }
+}
